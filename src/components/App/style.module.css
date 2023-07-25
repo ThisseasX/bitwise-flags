@@ -1,0 +1,9 @@
+.app {
+  font-family: sans-serif;
+}
+
+.label {
+  margin-right: 8px;
+  user-select: none;
+  cursor: pointer;
+}

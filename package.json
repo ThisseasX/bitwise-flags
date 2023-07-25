@@ -1,0 +1,31 @@
+{
+  "name": "bitwise-flags",
+  "version": "1.0.0",
+  "description": "Experimenting with bitwise flag manipulation.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "homepage": "https://thisseasx.github.io/bitwise-flags",
+  "author": "ThisseasX",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
+    "prettier": "^3.0.0",
+    "vite": "^4.4.7"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
